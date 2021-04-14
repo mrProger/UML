@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Обработка табличных данных</title>
+	</head>
+	<body>
+		<style>
+			table {
+				border-collapse: collapse;
+				margin-bottom: 50px;
+				background-color: #66CDAA;
+				font-weight: bold;
+				color: #FF0000;
+			}
+			td {
+				border: 1px solid black;
+				padding: 3px;
+				text-align: center;
+			}
+            .yellow {
+                background-color: #98FB98;
+                font-weight: bold;
+                text-align: center;
+            }
+            .header {
+            	margin-left: 150px;
+            	color: #8a7950;
+            } 
+            body { 
+            	background-image: url('bg.gif'); 
+            	background-repeat: no-repeat;
+            	background-size: 100%;  
+            }
+		</style>
+        <script>
+        	window.onload = function() { 								// Срабатывание функции при загрузке страницы 
+        		var newTableA = document.createElement("table");		// Создание элемента таблица
+        		for (var i = 0; i <= 9; i++) {
+        			var newRow = newTableA.insertRow(i);					
+        			for (var j = 0; j <= 9; j++) {
+        				var newCell = newRow.insertCell(j);
+
+        				if (i === 0 && j === 0) newCell.width = 50;		// Установка ширины текущей ячейки - 50
+        				else if (i === 0 && j > 0) {
+        					newCell.className = "yellow";				// Подключение CSS класса yellow
+        					newCell.innerHTML = j;						// Задание значения j в текущую ячейку
+        					newCell.width = 50;							// Установка ширины текущей ячейки - 50
+        				}
+        				else if (i > 0 && j === 0) {
+        					newCell.className = "yellow";				// Подключение CSS класса yellow
+        					newCell.innerHTML = i;						// Задание значения i в текущую ячейку
+        				}
+        				else newCell.innerHTML = i * j;					// Задание значения i * j в текущую ячейку
+        			}
+        		}
+
+        		var newTableB = document.createElement("table");		// Создание элемента таблица
+        		for (var i = 0; i <= 9; i++) {
+        			var newRow = newTableB.insertRow(i);					
+        			for (var j = 0; j <= 9; j++) {
+        				var newCell = newRow.insertCell(j);
+
+        				if (i === 0 && j === 0) newCell.width = 50;		// Установка ширины текущей ячейки - 50
+        				else if (i === 0 && j > 0) {
+        					newCell.className = "yellow";				// Подключение CSS класса yellow
+        					newCell.innerHTML = j;						// Задание значения j в текущую ячейку
+        					newCell.width = 50;							// Установка ширины текущей ячейки - 50
+        				}
+        				else if (i > 0 && j === 0) {
+        					newCell.className = "yellow";				// Подключение CSS класса yellow
+        					newCell.innerHTML = i;						// Задание значения i в текущую ячейку
+        				}
+        				else newCell.innerHTML = Math.pow(i, j);		// Задание значения i * j в текущую ячейку
+        			}
+        		}
+
+        		var headerA = document.createElement("h1");
+        		headerA.innerHTML = "Таблица умножения";
+        		headerA.className = "header";
+
+        		var headerB = document.createElement("h1");
+        		headerB.innerHTML = "Таблица степеней";
+        		headerB.className = "header";
+
+        		document.body.appendChild(headerA);
+        		document.body.appendChild(newTableA);
+        		document.body.appendChild(headerB);
+        		document.body.appendChild(newTableB);
+        	}
+        </script>
+	</body>
+</html>
