@@ -1,0 +1,51 @@
+<meta charset="UTF-8" />
+<html>
+<head>
+</head>
+<body> 
+	<p align="center"><input class="myform" type="text" name="quantity" onchange="find(this)">
+	<button onclick="click()">Поиск</button></p>
+	<style>
+		body {
+			background: url('witcher.png') no-repeat;
+			background-size: 100%;
+		}
+		
+		.myform {
+			background-color: red;
+			border-style: none;
+		}
+		
+		.myfooter {
+			text-align: left;
+			color: yellow;
+			font-weight: bold;
+			font-size: 30px;
+		}
+		
+		.witcher_face {
+			text-align: center;
+			width: 200px;
+			height: 150px;
+		}
+	</style>
+	<script>
+		var cars = ["Лада", "Вольво", "Тойота"]; // Объявление массива cars
+		var cpu = ["Интел", "АМД", "Эверест"]; // Объявление массива cpu
+		var gpu = [ "амд", "нвидия", "интел"]; // Объявление массива gpu
+		
+		cpu.push("Байкал"); // Добавление значения Байкал в конец массива cpu
+		console.log(cars.concat(cpu)); // Объедение массива cars и cpu
+ 		gpu.copyWithin(0, 2); // Копирование значения gpu[0] в gpu[2]
+
+		let find = (val) => { // Функция вывода значений по названию
+			if ((val.value.toLowerCase() == "машины") || (val.value.toLowerCase() == "cars")) alert(cars); // Вывод массива cars по запросу машины или cars
+			else if ((val.value.toLowerCase() == "процессоры") || (val.value.toLowerCase() == "cpu")) alert(cpu); // Вывод массива cpu по запросу процессоры или cpu
+			else if ((val.value.toLowerCase() == "видеокарты") || (val.value.toLowerCase() == "gpu")) alert(gpu); // Вывод массива gpu по запросу видеокарты или gpu
+			else alert("Ничего не найдено!"); // Вывод Ничего не найдено! если неверный запрос 
+		}
+	</script>
+	<p align="center"><img src="witcher_face.png" class="witcher_face"></p>
+</body>
+<footer class="myfooter">Разработчики - Хребтов Илья и Ясько Валерий</footer>
+</html>
