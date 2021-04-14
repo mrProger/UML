@@ -1,0 +1,16 @@
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\bin\Debug\MyWPFProject.exe.config
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\bin\Debug\MyWPFProject.exe
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\bin\Debug\MyWPFProject.pdb
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.csprojResolveAssemblyReference.cache
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MainWindow.baml
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MainWindow.g.cs
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\App.g.cs
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject_MarkupCompile.cache
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.g.resources
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.Properties.Resources.resources
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.csproj.GenerateResource.Cache
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.exe
+D:\Документы\study2\Рабочий стол\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.pdb
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject\MyWPFProject\bin\Debug\MyWPFProject.exe.config
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.exe
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject\MyWPFProject\obj\Debug\MyWPFProject.pdb
