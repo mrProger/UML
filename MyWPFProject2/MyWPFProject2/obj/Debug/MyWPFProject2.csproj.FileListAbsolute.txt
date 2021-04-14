@@ -1,0 +1,33 @@
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.exe.config
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.csprojResolveAssemblyReference.cache
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseITHome.baml
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MainWindow.baml
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseITHome.g.cs
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MainWindow.g.cs
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\App.g.cs
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2_MarkupCompile.cache
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.g.resources
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.Properties.Resources.resources
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.csproj.GenerateResource.Cache
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.exe
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.pdb
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.exe
+D:\Документы\study2\Рабочий стол\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.pdb
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.exe.config
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.exe
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.pdb
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.csprojResolveAssemblyReference.cache
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseReportPage.baml
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MainWindow.baml
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseReportPage.g.cs
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MainWindow.g.cs
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\App.g.cs
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2_MarkupCompile.cache
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\App.baml
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.exe
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\bin\Debug\MyWPFProject2.pdb
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseITHome.baml
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\ExpenseITHome.g.cs
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.g.resources
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.Properties.Resources.resources
+\\termsrv\Общий ресурс\_Учебный материал\Милютина И.В\ИСП-392\2-я_подгруппа\2-я_подгруппа\Хребтов\MyWPFProject2\MyWPFProject2\obj\Debug\MyWPFProject2.csproj.GenerateResource.Cache
