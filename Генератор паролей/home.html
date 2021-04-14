@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Генератор паролей</title>
+		<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+		<div id="generatePass">
+				<p>Какие символы включать в пароль:</p>
+				<p><input id="arr_num" type="checkbox"> Цифры</p>
+				<p><input id="arr_en" type="checkbox"> Английский строчные буквы</p>
+				<p><input id="arr_EN" type="checkbox"> Английский заглавные буквы</p>
+				<p><input id="arr_symb" type="checkbox"> Спецсимволы</p>
+				<p>Количество символов в пароле: <input id="passLenght" type="number" step="1" min="4" max="20" value="7" /></p>
+				<p>Сгенерированный пароль: <span id="result"></span></p>
+			<p><button id="pass_start">Сгенерировать пароль</button></p>
+		</div>
+		<hr id="generator-bg"/>
+		<script>
+			let arr_num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+			let arr_en = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+			let arr_EN = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+			let arr_symb = ['!', '@', '#', '$', '%', '?', '-', '+', '=', '~'];
+
+			const compareRandom = ( ) => Math.random() - 0.5;
+
+			const randomInteger = ( min, max ) => Math.round(min - 0.5 + Math.random() * (max - min + 1));
+
+			function generatePassword() {
+    			let arr = [];
+    			if (document.querySelector('#arr_num').checked) arr = arr.concat(arr_num);
+    			if (document.querySelector('#arr_en').checked) arr = arr.concat(arr_en);
+    			if (document.querySelector('#arr_EN').checked) arr = arr.concat(arr_EN);
+    			if (document.querySelector('#arr_symb').checked) arr = arr.concat(arr_symb);
+
+    			arr.sort(compareRandom);
+
+    			let password = '';
+    			let passLenght = document.querySelector('#passLenght').value;
+
+    			for (let i = 0; i < passLenght; i++) password += arr[randomInteger(0, arr.length - 1)];
+
+    			document.querySelector('#result').textContent = password;
+			}
+
+			document.querySelector('#pass_start').addEventListener('click', generatePassword);
+		</script>
+	</head>
+	<body>
+		<style>
+			body { background-color: #79d9bc; }
+			#generatePass {
+				margin-left: 40%;
+				margin-top: 15%;
+				font-size: 25px;
+				font-weight: bold;
+				color: #d5d67a;
+			}
+
+			#generator-bg {
+				width: 500px;
+				height: 450px;
+				margin-left: 38%;
+				margin-top: -18%;
+				background-color: #6abaa2;
+				border-radius: 15px;
+				border-style: none;
+			}
+
+			#pass_start {
+				margin-left: 6%;
+				width: 200px;
+				height: 50px;
+				border-radius: 15px;
+				border-style: none;
+				outline: none;
+				background-color: #cfc386;
+				color: white;
+				font-weight: bold;
+				transition: background 0.4s ease;
+			}
+
+			#pass_start:hover {
+				background-color: #80aad1;
+			}
+		</style>
+	</body>
+</html>
