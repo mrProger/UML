@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Функция Prompt</title>
+		<script src="Функция Prompt/script.js"></script>
+		<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div class="menu">
+			<p align="center"><button class="btn" onclick="FirstTask()">Первое задание</button></p>
+			<p align="center"><button class="btn" onclick="SecondTask()">Второе задание</button></p>
+			<p align="center"><button class="btn-back" onclick="GoBack()">Назад</button></p>
+		</div>
+
+		<style>
+			.menu {
+				margin-top: 240px;
+			}
+
+			.btn {
+				width: 300px;
+				height: 50px;
+				border-radius: 15px;
+				border-style: none;
+				background-color: #d4b770;
+				color: white;
+				font-weight: bold;
+				transition: background 0.4s ease;
+				margin-top: 20px;
+			}
+
+			.btn:hover {
+				width: 300px;
+				height: 50px;
+				border-radius: 15px;
+				border-style: none;
+				background-color: #66c4d9;
+				color: white;
+				font-weight: bold;
+			}
+
+			.btn-back {
+				width: 300px;
+				height: 50px;
+				border-radius: 15px;
+				border-style: none;
+				background-color: #d4b770;
+				color: white;
+				font-weight: bold;
+				transition: background 0.4s ease;
+				margin-top: 230px;
+			}
+
+			.btn-back:hover {
+				width: 300px;
+				height: 50px;
+				border-radius: 15px;
+				border-style: none;
+				background-color: #66c4d9;
+				color: white;
+				font-weight: bold;
+			}
+
+			body { background-image: url('images/bg.jpg'); }
+
+			button:active, button:focus { outline: none; }
+			button::-moz-focus-inner { border: 0; }
+		</style>
+		<script>function GoBack() { document.location.href = 'index.html'; }</script>
+	</body>
+</html>
