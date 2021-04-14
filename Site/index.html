@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="icon" href="./icon/icon.ico" type="image/x-icon">
+		<title>Поиск на странице</title>
+		<script src="https://thecode.media/wp-content/uploads/2019/06/jquery.js" type="text/javascript"></script>
+		<script src='https://thecode.media/wp-content/uploads/2019/06/jqueryhighlight.js'></script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style type="text/css">
+			.searchtext {
+				font-size: 16px;
+				font-weight: bold;
+				height: 27px;
+				padding: 0 6px 0 ;
+				width: 500px;
+				border: 2px solid rgba(0, 0, 0, 0.1);
+				border-radius: 5px;
+				text-align: center;
+			}
+
+			.highlight {background:#79b6d9;}
+
+			.search-button {
+			background-color: #0B2F3F;
+			font-weight: bold;
+			font-size: 12px;
+			height: 33px;
+			width: 70px;
+			margin: 0;
+			color: #ffffff;
+			padding: 6px;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+			}
+
+			.results { color: #f0714a; }
+
+			h2 { font-family: 'Britannic Bold'; color: #d1bf7b; font-weight: bold; }
+			p { font-family: 'Britannic Bold'; color: #afd474; font-weight: bold; }
+			body { background-color: #7f7f7f; }
+		</style>
+	</head>
+	<body>
+		<form id="search-highlight" method="post" action="#">
+			<p align="center"><input type="text" name="term" id="term" class="searchtext"/>
+			<input type="submit" name="submit" id="submit" value="Найти" class="search-button"/></p>
+		</form>
+		<p class="results" align="center"></p>
+		<div class="content">
+			<h2 style="text-align: center;">Линейный поиск</h2>
+			<p>Линейный, последовательный поиск — алгоритм нахождения заданного значения произвольной функции на некотором отрезке. Данный алгоритм является простейшим алгоритмом поиска и, в отличие,</p>   <p>например, от двоичного поиска, не накладывает никаких ограничений на функцию и имеет простейшую реализацию. Поиск значения функции осуществляется простым сравнением очередного</p>            <p>рассматриваемого значения (как правило, поиск происходит слева направо, то есть от меньших значений аргумента к большим) и, если значения совпадают (с той или иной точностью), то поиск считается завершённым.</p>
+			<p>В связи с малой эффективностью по сравнению с другими алгоритмами линейный поиск обычно используют, только если отрезок поиска содержит очень мало элементов, тем не менее, линейный поиск не требует дополнительной памяти или обработки/анализа функции, так что может работать в потоковом режиме при непосредственном получении данных из любого источника. Также линейный поиск часто используется в виде линейных алгоритмов поиска максимума/минимума.</p>
+			<p>В качестве примера можно рассмотреть поиск значения функции на множестве целых чисел, представленной таблично.</p>
+			<h2 style="text-align: center;">Бинарный поиск</h2>
+			<p>Двоичный (бинарный) поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины.</p>
+			<p>Используется в информатике, вычислительной математике и математическом программировании.
+			Частным случаем двоичного поиска является метод бисекции, который применяется для поиска корней заданной непрерывной функции на заданном отрезке.</p>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+ 			$("#submit").click(function(){
+   			var term = "";
+   			var n = "0";
+   			$('body').removeHighlight();
+   			$("p.results").hide().empty();
+       		term = $('#term').attr('value');
+   			if($('#term').val() == ""){
+     			$("p.results").fadeIn().append("Вы ничего не ввели :(");
+     			return false;
+   			}else{
+	        	$('.content').highlight( term );
+     			n = $("span.highlight").length;
+     			if(n == 0){
+       				$("p.results").fadeIn().append("Ничего такого в тексте нет");
+     			}else{
+					$("p.results").fadeIn().append('Найдено совпадений: '+n);
+				}
+     		return false;
+   			}
+ 			});
+			});
+		</script>
+	</body>
+</html>
