@@ -1,0 +1,12 @@
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\bin\Debug\WinForms_DB.exe.config
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\bin\Debug\WinForms_DB.exe
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\bin\Debug\WinForms_DB.pdb
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.csprojAssemblyReference.cache
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.Properties.Resources.resources
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.csproj.GenerateResource.cache
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.csproj.CoreCompileInputs.cache
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.exe
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.pdb
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.AuthorizationForm.resources
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.MainForm.resources
+D:\Документы\study2\Рабочий стол\Авторизация_5\WinForms_DB\WinForms_DB\obj\Debug\WinForms_DB.RegistrationForm.resources
